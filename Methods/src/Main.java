@@ -13,6 +13,26 @@
 
  Benefits of Methods:-
     1. Reusability.
+    2. Single Responsibility Principle.
+
+
+
+    --- Advanced Method Concepts ---
+
+  1. Method Overloading (التحميل الزائد):
+     - يمكنك تعريف أكثر من Method بنفس الاسم، بشرط اختلاف الـ Parameters
+     (اختلاف العدد أو النوع أو الترتيب). جافا بتعرف تنادي مين فيهم بناءً على الـ Arguments.
+
+  2. Static vs Instance Methods:
+     - الـ Static Method (زي اللي كاتبها): تنتمي للكلاس نفسه، تناديها باسم الكلاس.
+     - الـ Instance Method: لا نستخدم فيها كلمة static، وتنتمي للـ Object (الكائن).
+
+  3. Pass-by-Value:
+     - جافا دايماً بتمرر "نسخة" من القيمة (Value). لو غيرت قيمة الـ Parameter جوه
+     الـ Method، القيمة الأصلية بره مش هتتغير (في حالة الـ Primitive types).
+
+  4. Single Responsibility Principle (مبدأ المسئولية الواحدة):
+     - الـ Method الناجحة هي اللي بتعمل "حاجة واحدة بس" وبشكل مثالي.
  */
 
 public class Main {
