@@ -43,7 +43,7 @@
         1. Parameters: The Placeholders that you define them in method prototype.
         2. Arguments:  The actual values that you put them in method invoking.
 
-     -> Difference between static and not static method:-
+     -> Difference between static and not static (instance)method:-
         1. static method: Tou don't need to instantiate an object from the class and you can use the method directly.
         2. not static method:  You must instantiate an object from the class & The Object then can access attributes and methods.
 
