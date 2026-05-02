@@ -1,13 +1,47 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+/*
+Problem 31: Linear Search Implement linear search on an int array. Return the index if found,-1
+otherwise. Use a for-each loop with a break statement when found.
+ */
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter Array Size: ");
+        final int SIZE = input.nextInt();
+
+        int[] numbers = new int[SIZE];
+        for(int i = 0; i < SIZE; i++){
+            numbers[i] = (int) (Math.random() * 10);
+        }
+
+        for(int i = 0; i < SIZE; i++){
+            System.out.print(numbers[i] + ( (i == numbers.length - 1)? "\n" : " ") );
+        }
+
+        System.out.print("Enter the value you search for: ");
+        int value = input.nextInt();
+
+        System.out.println((search(numbers, value) == -1 ? "Not Found" : "Index = " + search(numbers, value)));
+    }
+
+    static int search(int[] arr, int value){
+        boolean found = false;
+        byte counter = -1;
+        for(int a: arr){
+            counter ++;
+            if(value == a){
+                found = true;
+                break;
+            }
+        }
+
+        if(found)
+            return counter;     // The Actual Index
+        else
+            return -1;
+
     }
 }
