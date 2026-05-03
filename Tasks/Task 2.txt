@@ -1,2 +1,0 @@
-Explain the following main OOP concepts in JAVA: Encapsulation, Inheritance, Polymorphism, and Abstraction with examples.
-
