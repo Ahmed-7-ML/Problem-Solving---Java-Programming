@@ -62,7 +62,12 @@ public class Main {
         Product p3 = new Product(p2);
 
         // Using private
-        Product p4 = new Product();
+        Product p4 = Product.createUnlistedProduct("I-Pad");
+
+        p1.display();
+        p2.display();
+        p3.display();
+        p4.display();
 
     }
 }
