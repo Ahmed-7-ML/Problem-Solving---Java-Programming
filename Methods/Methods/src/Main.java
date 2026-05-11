@@ -6,13 +6,12 @@
     - Like Functions and Expose the Behavior of Object.
 
     -> Difference between Function and Methods:
-        - The both are the same ,but differences in where you write them
+        - The both are the same , but differences in where you write them
             1. Functions -> Block of Code that not belongs to a class.
             2. Methods   -> Function but within the class.
 
-     -> Jave is Object-Oriented and Stack based programming language
-        - So there is no functions here only methods -> As you write your program inside this class:
-            public class Main{...}
+     -> Java is Object-Oriented and Stack based programming language
+        - So there is no functions here only methods -> As you write your program inside this class: public class Main{...}
         - public static main(String[] args) : Starting Point of Running Program is also a Method.
 
 -> Syntax:- (Prototype)
@@ -21,7 +20,8 @@
         [Body of the Function]
 
     }
-    *** If you use any return type other than (void) -> you must use return statement.
+    *** If you use any return type other than (void) -> you must use `return` statement.
+
 -> Key Components:
     1. Access Modifier [Public, Protected, Default, Private]
     2. Return Type / Void
@@ -33,8 +33,7 @@
         [Method Name](Argument List);
 
         - Java use its internal structure [Call Stack] to manage execution, variables and return addresses.
-        - Call Stack: Data structure used by the program during runtime to manage method calls and
-                      local variables.
+        - Call Stack: Data structure used by the program during runtime to manage method calls and local variables.
                       It operates in a Last-In-First-Out (LIFO) manner, meaning the last method
                       called is the first one to complete and exit.
 
@@ -44,15 +43,15 @@
         2. Arguments:  The actual values that you put them in method invoking.
 
      -> Difference between static and not static (instance)method:-
-        1. static method: Tou don't need to instantiate an object from the class and you can use the method directly.
-        2. not static method:  You must instantiate an object from the class & The Object then can access attributes and methods.
+        1. static method: You don't need to instantiate an object from the class and you can use the method directly.
+        2. not static (instance) method:  You must instantiate an object from the class & The Object then can access attributes and methods.
 
 -> Benefits of Methods:-
     1. Reusability -> Write once, use multiple times by calling without repeating the code.
     2. Increase Code Readability, Efficiency and Organization.
     3. Modularity -> Dividing program into separate methods , allow each method to handle specific task.
     4. Maintainability -> As it is Modular Program, you can easily fix bugs or update code.
-    4. Single Responsibility Principle -> The method is responsible about only 1 task.
+    5. Single Responsibility Principle -> The method is responsible about only 1 task.
 
  */
 
@@ -62,6 +61,12 @@ public class Main {
         System.out.println("Hello, " + name);
     }
 
+    public static void sum2Numbers(int n1, int n2){
+        if(n1 <= 0 || n2 <= 0){
+            return;     // Acts Like a break statement in Loops.
+        }
+        System.out.println("Sum = " + (n1 + n2));
+    }
     // Non-Static Method -> You must define an object.
     public int Add(int n1, int n2){
         return n1 + n2;
@@ -80,13 +85,9 @@ public class Main {
         Main object = new Main();
         int res = object.Add(3, 5);
         System.out.println(res);
-
-        /*
-        -> 2 Methods with the same name but with different parameters -> different signature.
-        */
-
     }
 
+    // -> 2 Methods with the same name but with different parameters -> different signature.
     // Static Method -> You don't need any objects.
     public static double Add(double n1, double n2){
         return  n1 + n2;

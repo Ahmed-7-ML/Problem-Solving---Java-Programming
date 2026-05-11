@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0663c6d4-22f9-4da1-b6e2-c1db051850d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Methods/Annotations/Annotations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Methods/Built-in Methods/Built-in Methods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Methods/Method Examples/Method Examples.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Methods/Method Overloading/Method Overloading.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Methods/Recursion v2/Recursion v2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Methods/Recursion/Recursion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Access Modifiers/Access Modifiers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Access Modifiers/src/p1/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Access Modifiers/src/p2/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Access Modifiers/src/p2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/Inheritance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banking/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banking/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banking/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banking/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banking/Banking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projects/Hotel Management System/Hotel Management System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods v2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods v2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods v2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods v2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods v2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods v2/Methods v2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods v2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods/Methods.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Methods/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasks/Java_OOP_Concepts.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3DaOpQV4CHVLt9eAu1fcNv3AC01" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Material Of Kolia/4th Level Semster 2/Java/codes/OOP/OOP Questions/src/Main.java&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0663c6d4-22f9-4da1-b6e2-c1db051850d9" name="Changes" comment="" />
+      <created>1778516900319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778516900319</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -15,7 +15,7 @@ class Product{
     private String name;
     private double price;
 
-    // 1. Default Constructor (No Parameter)
+    // 1. Default Constructor (No Parameter) -> Java Automatically creates it unless f you don't create it.
     Product(){
         this.name = "Unknown";
         this.price = 0;
@@ -33,15 +33,36 @@ class Product{
         this.price = other.price;
     }
 
-    // 4. Private Constructor
-    Product(){
-
+    // 4. Private Constructor -> Used via Factory Method
+    private Product(String name){
+        this.name = name;
+        this.price = -1;    // Indicates "unlisted" product
     }
 
+    public static Product createUnlistedProduct(String name){
+        return new Product(name);
+    }
+
+
+    void display(){
+        System.out.println("Product Name: " + name + " | Price $" + price);
+    }
 }
 
 public class Main {
     public static void main(String[] args){
+
+        // Using default
+        Product p1 = new Product();
+
+        // Using parameterized
+        Product p2 = new Product("Mobile", 123.11);
+
+        // Using copy
+        Product p3 = new Product(p2);
+
+        // Using private
+        Product p4 = new Product();
 
     }
 }
